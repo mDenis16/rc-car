@@ -7,11 +7,12 @@
 #include "SteerState.h"
 #include "CCar.h"
 
+CCar car;
 void setup() {
  Serial.begin(9600);
- //dir.Init();
+ car.Init();
 }
 
 void loop() {
-  //dir.Loop();
+  car.Loop();
 }
